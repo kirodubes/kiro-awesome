@@ -387,10 +387,10 @@ globalkeys = my_table.join(
 
 
     -- ctrl+alt +  ...
-    awful.key({ modkey1, altkey   }, "w", function() awful.util.spawn( "arcolinux-welcome-app" ) end,
-        {description = "ArcoLinux Welcome App", group = "alt+ctrl"}),
     awful.key({ modkey1, altkey   }, "e", function() awful.util.spawn( "archlinux-tweak-tool" ) end,
         {description = "ArcoLinux Tweak Tool", group = "alt+ctrl"}),
+    awful.key({ modkey1, altkey   }, "d", function() awful.util.spawn( "obs" ) end,
+        {description = "OBS", group = "alt+ctrl"}),
     awful.key({ modkey1, altkey   }, "Next", function() awful.util.spawn( "conky-rotate -n" ) end,
         {description = "Next conky rotation", group = "alt+ctrl"}),
     awful.key({ modkey1, altkey   }, "Prior", function() awful.util.spawn( "conky-rotate -p" ) end,
@@ -1039,7 +1039,6 @@ awful.rules.rules = {
         },
         class = {
           "Arandr",
-          "Arcolinux-welcome-app.py",
           "Blueberry",
           "Galculator",
           "Gnome-font-viewer",

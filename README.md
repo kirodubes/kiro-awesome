@@ -11,6 +11,10 @@ Educational / tutorial repository for [awesome WM](https://awesomewm.org/), a hi
 - `etc/skel/` — user-facing configs that land in `/etc/skel/` and propagate to new users (or can be copied into an existing `$HOME`).
 - `setup.sh`, `up.sh`, `cleanup.sh` — standard EDU bash scaffold.
 
+## Keybindings
+
+Press **`Super + S`** to open awesome's built-in hotkey popup — an on-screen list of every shortcut. The full list also ships as a plain-text [`keybindings.txt`](etc/skel/.config/awesome/keybindings.txt) in the config directory.
+
 ## Installation
 
 ### From `nemesis_repo` (recommended)

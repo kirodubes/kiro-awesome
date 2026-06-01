@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026.06.01 
+
+### What Changed
+- Regenerated the `keybindings.txt` reference into the current standard cheatsheet format (via `/kiro-keybindings-all-twms`).
+- As part of wiring the universal `super + ctrl + s` → `kiro-keybindings` cheatsheet hotkey across the Kiro tiling window managers, **awesome was intentionally left as-is**: no new binding was added. Awesome's native `super + s` already opens its own built-in hotkey popup, so it is not left without a shortcuts viewer.
+
+### Technical Details
+- awesome does **not** gain `super + ctrl + s` and does **not** call `kiro-keybindings`; its native `super + s` hotkey popup is the canonical shortcuts viewer for this WM.
+- `keybindings.txt` was fully regenerated; no `rc.lua` or keybinding logic changed.
+
+### Files Modified
+- etc/skel/.config/awesome/keybindings.txt
+
 ## 2026.05.26
 
 ### What Changed
