@@ -1,7 +1,7 @@
 ###############################################################################
 #  KEYBINDINGS — awesome
 #  Source: etc/skel/.config/awesome/rc.lua
-#  Generated: 2026.06.01 by /kiro-keybindings-all-twms — DO NOT EDIT BY HAND
+#  Generated: 2026.06.02 by /kiro-keybindings-all-twms — DO NOT EDIT BY HAND
 ###############################################################################
 
 ── 1. Applications & Launchers ───────────────────────────────────────────────
@@ -15,6 +15,7 @@
   super + F11               rofi drun (fullscreen)
   super + F12               rofi drun
   super + r                 rofi-theme-selector
+  super + ctrl + s          kiro-keybindings (cheatsheet)
   ctrl + alt + a            xfce4-appfinder
   alt + F2                  xfce4-appfinder (collapsed)
   alt + F3                  xfce4-appfinder

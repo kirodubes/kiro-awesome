@@ -2,7 +2,7 @@
   <img src="kiro.jpg" alt="Kiro" width="220" />
 </p>
 
-# edu-awesome
+# kiro-awesome
 
 Educational / tutorial repository for [awesome WM](https://awesomewm.org/), a highly configurable Lua-driven dynamic window manager. Part of the `~/EDU/` learning series — a working awesome config dropped on top of a fresh Arch / Kiro install.
 
@@ -27,7 +27,7 @@ Server = https://erikdubois.github.io/$repo/$arch
 
 ```bash
 sudo pacman -Syu
-sudo pacman -S edu-awesome
+sudo pacman -S kiro-awesome
 ```
 
 You'll also need awesome itself:
@@ -39,8 +39,8 @@ sudo pacman -S awesome
 ### Manual
 
 ```bash
-git clone https://github.com/erikdubois/edu-awesome.git
-cd edu-awesome
+git clone https://github.com/kirodubes/kiro-awesome.git
+cd kiro-awesome
 sudo cp -r etc/skel/. /etc/skel/
 ```
 

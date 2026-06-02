@@ -359,6 +359,8 @@ globalkeys = my_table.join(
         {description = "conky-toggle", group = "super"}),
     awful.key({ modkey, modkey1 }, "c", function () awful.util.spawn( "killall conky" ) end,
         {description = "conky killall", group = "super"}),
+    awful.key({ modkey, modkey1 }, "s", function () awful.util.spawn( "kiro-keybindings" ) end,
+        {description = "kiro-keybindings cheatsheet", group = "super"}),
     awful.key({ modkey }, "e", function () awful.util.spawn( editorgui ) end,
         {description = "run gui editor", group = "super"}),
     --awful.key({ modkey }, "h", function () awful.util.spawn( "urxvt -T 'htop task manager' -e htop" ) end,

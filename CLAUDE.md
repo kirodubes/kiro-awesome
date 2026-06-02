@@ -1,4 +1,4 @@
-# CLAUDE.md — edu-awesome
+# CLAUDE.md — kiro-awesome
 
 ## Project overview
 
