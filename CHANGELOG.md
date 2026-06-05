@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026.06.02
+
+### What Changed
+- Brought `autostart.sh` in line with the canonical [TWM autostart standard](/home/erik/Insync/Kiro/Kiro-HQ/AUTOSTART_TEMPLATE.md). Documented header, `# ──` sections in standard order, no rubbish — same apps awesome already autostarted.
+- Removed the dead `#run xrandr …` reference lines above the monitor block and the trailing pile of commented `#run firefox/code/spotify/...` examples.
+- Adopted the standard `.fehbg`-restore wallpaper pattern (fallback to the Kiro wallpaper).
+
+### Technical Details
+- `function run { … pgrep $1 … }` (loose match) → canonical POSIX `run()` with exact-match `pgrep -x "$(basename "$1" | head -c 15)"` and quoted args.
+- Preserved awesome's per-WM facts: **native keybindings in rc.lua** (no sxhkd line), **volumeicon** as the volume applet, fastcompmgr default (super+g toggle), native wibar (no status-bar line), and **no WM-loop tail** (awesome calls this script from rc.lua).
+- Validated with `bash -n`.
+
+### Files Modified
+- etc/skel/.config/awesome/autostart.sh
+
 ## 2026.06.01 
 
 ### What Changed

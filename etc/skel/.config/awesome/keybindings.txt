@@ -40,7 +40,6 @@
   ctrl + alt + s            spotify
   super + v                 pavucontrol
   ctrl + alt + u            pavucontrol
-  ctrl + alt + i            nitrogen (wallpaper setter)
   ctrl + alt + e            archlinux-tweak-tool
   ctrl + alt + d            obs
   ctrl + alt + m            xfce4-settings-manager
@@ -151,9 +150,5 @@
   ctrl + alt + k            archlinux-logout
   ctrl + alt + l            archlinux-logout
   super + shift + x         arcolinux-powermenu
-  super + c                 conky-toggle
-  super + ctrl + c          killall conky
-  ctrl + alt + Next         conky-rotate next
-  ctrl + alt + Prior        conky-rotate previous
   super + g                 compositor toggle (fastcompmgr)
   alt + x                   Lua execute prompt
