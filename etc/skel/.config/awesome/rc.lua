@@ -128,6 +128,7 @@ local mailclient        = "evolution"
 local mediaplayer       = "spotify"
 local terminal          = "alacritty"
 local virtualmachine    = "virtualbox"
+local virtmanager       = "virt-manager"
 
 -- awesome variables
 awful.util.terminal = terminal
@@ -345,8 +346,8 @@ globalkeys = my_table.join(
         {description = virtualmachine , group = "function keys" }),
     awful.key({ modkey }, "F8", function () awful.util.spawn( filemanager ) end,
         {description = filemanager , group = "function keys" }),
-    awful.key({ modkey }, "F9", function () awful.util.spawn( mailclient ) end,
-        {description = mailclient , group = "function keys" }),
+    awful.key({ modkey }, "F9", function () awful.util.spawn( virtmanager ) end,
+        {description = virtmanager , group = "function keys" }),
     awful.key({ modkey }, "F10", function () awful.util.spawn( mediaplayer ) end,
         {description = mediaplayer , group = "function keys" }),
     awful.key({ modkey }, "F11", function () awful.util.spawn( "rofi -theme-str 'window {width: 100%;height: 100%;}' -show drun" ) end,

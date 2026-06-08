@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026.06.08
+
+### What Changed
+- Rebound `Super + F9` from `evolution` (mail client) to `virt-manager`, matching the distro-wide change applied across all Kiro environments.
+
+### Technical Details
+- Added a `virtmanager = "virt-manager"` personal variable in `rc.lua` (alongside the existing `virtualmachine`/`mailclient` vars) and pointed the `Super + F9` `awful.key` (and its description) at it. Regenerated the cheatsheet (`keybindings.txt` → `keybindings.html` + `keybindings.pdf` via `kiro-keybindings-html.py`).
+
+### Files Modified
+- `etc/skel/.config/awesome/rc.lua`
+- `etc/skel/.config/awesome/keybindings.txt`
+- `etc/skel/.config/awesome/keybindings.html`
+- `etc/skel/.config/awesome/keybindings.pdf`
+
 ## 2026.06.02
 
 ### What Changed

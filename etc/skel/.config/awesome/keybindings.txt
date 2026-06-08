@@ -1,7 +1,7 @@
 ###############################################################################
 #  KEYBINDINGS — awesome
 #  Source: etc/skel/.config/awesome/rc.lua
-#  Generated: 2026.06.02 by /kiro-keybindings-all-twms — DO NOT EDIT BY HAND
+#  Generated: 2026.06.08 by /kiro-keybindings-all-twms-xfce — DO NOT EDIT BY HAND
 ###############################################################################
 
 ── 1. Applications & Launchers ───────────────────────────────────────────────
@@ -35,7 +35,7 @@
   super + F5                meld
   super + F6                vlc
   super + F7                virtualbox
-  super + F9                evolution (mail client)
+  super + F9                virt-manager (virtual machine manager)
   super + F10               spotify
   ctrl + alt + s            spotify
   super + v                 pavucontrol
