@@ -332,6 +332,8 @@ globalkeys = my_table.join(
     -- super + ... function keys
     awful.key({ modkey }, "F1", function () awful.util.spawn( browser1 ) end,
         {description = browser1, group = "function keys"}),
+    awful.key({ "Control", "Mod1" }, "i", function () awful.util.spawn( "kiro-iso-builder" ) end,
+        {description = "kiro-iso-builder", group = "function keys"}),
     awful.key({ modkey }, "F2", function () awful.util.spawn( editorgui ) end,
         {description = editorgui , group = "function keys" }),
     awful.key({ modkey }, "F3", function () awful.util.spawn( "inkscape" ) end,

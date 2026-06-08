@@ -25,6 +25,7 @@
   ctrl + alt + v            vivaldi-stable (browser)
   ctrl + alt + f            firefox (browser)
   ctrl + alt + g            chromium (browser)
+  ctrl + alt + i            kiro-iso-builder (ISO builder)
   super + F8                thunar (file manager)
   super + shift + Return    thunar (file manager)
   ctrl + alt + b            thunar (file manager)
