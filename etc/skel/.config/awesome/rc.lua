@@ -333,10 +333,6 @@ globalkeys = my_table.join(
         {description = "flameshot", group = "Kiro"}),
     awful.key({ modkey1, altkey }, "o", function() awful.util.spawn("opera") end,
         {description = "opera", group = "Kiro"}),
-    awful.key({ modkey1, altkey, "Shift" }, "F1", function() awful.util.spawn("update-system") end,
-        {description = "update-system", group = "Kiro"}),
-    awful.key({ modkey, modkey1, "Shift" }, "F1", function() awful.util.spawn("update-system") end,
-        {description = "update-system", group = "Kiro"}),
 
     -- {{{ Personal keybindings
     awful.key({ modkey }, "w", function () awful.util.spawn( browser1 ) end,

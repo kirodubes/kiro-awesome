@@ -1,7 +1,7 @@
 ###############################################################################
 #  KEYBINDINGS — awesome
 #  Source: etc/skel/.config/awesome/rc.lua
-#  Generated: 2026.06.08 by /kiro-keybindings-all-twms-xfce — DO NOT EDIT BY HAND
+#  Generated: 2026.06.30 by /kiro-keybindings-all — DO NOT EDIT BY HAND
 ###############################################################################
 
 ── 1. Applications & Launchers ───────────────────────────────────────────────
@@ -9,43 +9,52 @@
   super + t                 alacritty (terminal)
   ctrl + alt + Return       alacritty (terminal)
   ctrl + alt + t            alacritty (terminal)
-  F12                       xfce4-terminal (dropdown terminal)
+  F12                       alacritty (terminal)
   super + d                 rofi drun (launcher2 theme)
   super + shift + d         dmenu_run
-  super + F11               rofi drun (fullscreen)
-  super + F12               rofi drun
-  super + r                 rofi-theme-selector
-  super + ctrl + s          kiro-keybindings (cheatsheet)
-  ctrl + alt + a            xfce4-appfinder
-  alt + F2                  xfce4-appfinder (collapsed)
-  alt + F3                  xfce4-appfinder
-  ctrl + alt + c            catfish (file search)
-  super + w                 vivaldi-stable (browser)
   super + F1                vivaldi-stable (browser)
-  ctrl + alt + v            vivaldi-stable (browser)
-  ctrl + alt + f            firefox (browser)
-  ctrl + alt + g            chromium (browser)
-  ctrl + alt + i            kiro-iso-builder (ISO builder)
-  super + F8                thunar (file manager)
-  super + shift + Return    thunar (file manager)
-  ctrl + alt + b            thunar (file manager)
-  super + e                 code (gui editor)
   super + F2                code (gui editor)
   super + F3                inkscape
   super + F4                gimp
   super + F5                meld
   super + F6                vlc
   super + F7                virtualbox
+  super + F8                thunar (file manager)
   super + F9                virt-manager (virtual machine manager)
   super + F10               spotify
-  ctrl + alt + s            spotify
+  super + F11               rofi drun (fullscreen)
+  super + F12               rofi drun
+  super + r                 rofi-theme-selector
+  super + ctrl + s          kiro-keybindings (cheatsheet)
+  ctrl + alt + a            alacritty-tweak-tool
+  alt + F2                  xfce4-appfinder (collapsed)
+  alt + F3                  xfce4-appfinder
+  ctrl + alt + c            chromium (browser)
+  super + w                 vivaldi-stable (browser)
+  ctrl + alt + v            vivaldi-stable (browser)
+  ctrl + alt + f            firefox (browser)
+  ctrl + alt + g            chromium (browser)
+  ctrl + alt + i            kiro-iso-builder (ISO builder)
+  super + shift + Return    thunar (file manager)
+  ctrl + alt + b            brave (browser)
+  super + e                 code (gui editor)
+  ctrl + alt + s            fish-tweak-tool
   super + v                 pavucontrol
   ctrl + alt + u            pavucontrol
   ctrl + alt + e            archlinux-tweak-tool
   ctrl + alt + d            obs
-  ctrl + alt + m            xfce4-settings-manager
+  ctrl + alt + m            mintstick (USB image writer)
   ctrl + alt + p            pamac-manager
   ctrl + shift + Escape     xfce4-taskmanager
+  super + KP_Enter          alacritty (terminal)
+  super + shift + KP_Enter  thunar (file manager)
+  ctrl + alt + q            alacritty-tweak-tool
+  ctrl + alt + ,            mintstick (USB image writer)
+  alt + r                   rofi-theme-selector
+  ctrl + alt + z            fastfetch-tweak-tool
+  ctrl + alt + w            fastfetch-tweak-tool
+  ctrl + alt + End          btop (in alacritty)
+  ctrl + alt + o            opera
 
 ── 2. Window Management ───────────────────────────────────────────────────────
   super + h                 focus left
@@ -72,6 +81,7 @@
   super + ctrl + Return     move window to master
   alt + shift + m           magnify client
   super + Escape            xkill (kill a window)
+  super + shift + Escape    xkill (kill a window)
 
 ── 3. Workspaces / Tags / Groups ──────────────────────────────────────────────
   super + 1..9              view tag 1..9
@@ -114,10 +124,10 @@
   XF86AudioMute             mute toggle
   ctrl + shift + m          volume 100%
   ctrl + shift + 0          volume 0%
-  XF86AudioPlay             mpc toggle (play/pause)
-  XF86AudioNext             mpc next
-  XF86AudioPrev             mpc previous
-  XF86AudioStop             mpc stop
+  XF86AudioPlay             playerctl play-pause
+  XF86AudioNext             playerctl next
+  XF86AudioPrev             playerctl previous
+  XF86AudioStop             playerctl stop
   ctrl + shift + Up         mpc toggle (play/pause)
   ctrl + shift + Down       mpc stop
   ctrl + shift + Left       mpc previous
@@ -131,6 +141,7 @@
   alt + Right               variety: next wallpaper
   alt + Up                  variety: pause rotation
   alt + Down                variety: resume rotation
+  super + ctrl + space      variety: wallpaper selector
   alt + shift + t           variety trash + pywal recolor
   alt + shift + n           variety next + pywal recolor
   alt + shift + p           variety previous + pywal recolor
@@ -140,6 +151,7 @@
   Print                     scrot (full screen to Pictures)
   ctrl + Print              xfce4-screenshooter
   ctrl + shift + Print      gnome-screenshot (interactive)
+  super + ctrl + Print      flameshot gui (region)
 
 ── 8. System & Session ────────────────────────────────────────────────────────
   super + s                 show help (hotkeys popup)
@@ -149,7 +161,8 @@
   super + shift + r         reload awesome
   super + x                 archlinux-logout
   ctrl + alt + k            archlinux-logout
-  ctrl + alt + l            archlinux-logout
-  super + shift + x         arcolinux-powermenu
+  ctrl + alt + l            archlinux-logout (settings)
+  ctrl + alt + r            archlinux-betterlockscreen (lock screen)
+  super + shift + x         edu-powermenu
   super + g                 compositor toggle (fastcompmgr)
   alt + x                   Lua execute prompt
